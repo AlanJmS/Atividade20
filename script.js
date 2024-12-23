@@ -57,3 +57,9 @@ for (let i = 0; i < contatos.length; i++) {
     }
 };
 
+let quant = 0;
+for (let n = 0; n < contatos.length; n++) {
+    if (contatos[n].assunto === "Dúvida")
+        quant++
+    console.log(`Há ${quant} ocorrências com este assunto nas requisições`)
+};git 
