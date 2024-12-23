@@ -51,4 +51,9 @@ let contatos = [
     { nome: "Érica", email: "erica@email.com", assunto: "Dúvida", mensagem: "Como faço para alterar meu endereço?" }
   ];
 
-  
+for (let i = 0; i < contatos.length; i++) {
+    if (contatos[i].assunto === "Dúvida") {
+        console.log(`Assunto: ${contatos[i].assunto} | Mensagem: ${contatos[i].mensagem} | Nome: ${contatos[i].nome} | Email: ${contatos[i].email}`)
+    }
+};
+
